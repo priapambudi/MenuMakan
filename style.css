@@ -1,0 +1,129 @@
+/* Navbar */
+.navbar {
+  z-index: 9;
+}
+.navbar-brand {
+  font-family: Viga;
+  font-size: 38px;
+}
+@media (min-width: 992px) {
+  .navbar-brand, .nav-link {
+    color: white !important;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+  }
+.nav-link {
+  text-transform: uppercase;
+  margin-right: 30px;
+}
+.nav-link:hover::after {
+  content: '';
+  display: block;
+  border-bottom: 3px solid white;
+  width: 50%;
+  margin: auto;
+  padding-bottom: 5px;
+  margin-bottom: -8px;
+}
+
+
+/* corousel */
+#carouselExampleIndicators {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.carousel-item {
+  margin-top: -75px;
+  height: 640px;
+}
+.carousel-caption1 {
+  position: absolute;
+  left: 0;
+  bottom: 40%;
+  margin-left: 50%;
+  color: white;
+  text-align: right;
+}
+.carousel-caption1 h5 {
+  font-size: 40px;
+  letter-spacing: 2px;
+  font-family: 'Open Sans', sans-serif;
+}
+.carousel-caption2 {
+  position: absolute;
+  left: 0;
+  bottom: 50%;
+  margin-left: 40%;
+  color: white;
+  text-align: right;
+}
+.carousel-caption2 h5 {
+  font-size: 35px;
+  letter-spacing: 2px;
+  font-family: 'Shadows Into Light', cursive;
+}
+.carousel-caption3{
+  position: absolute;
+  right: 0;
+  bottom: 33%;
+  margin-right: 68%;
+  color: white;
+  text-align: center;
+}
+.carousel-caption3 h5 {
+  font-size: 30px;
+  letter-spacing: 2px;
+  font-family: 'Amatic SC', cursive;
+}
+
+/* food */
+.card-body{
+  margin-left: auto;
+  margin-right: auto;
+}
+.food {
+  margin-top: 500px;
+  margin-left: 40px;
+}
+.food h1{
+  font-size: 20px;
+  text-align: center;
+}
+.food p {
+  text-align: center;
+}
+
+hr{
+  width: 250px;
+  border-top: 3px solid #333;
+}
+
+/* Drink */
+.drink {
+  margin-left: 40px;
+}
+.drink h1{
+  font-size: 20px;
+  text-align: center;
+}
+.drink p {
+  text-align: center;
+}
+
+/* cake */
+.cake {
+  margin-left: 40px;
+}
+.cake h1{
+  font-size: 20px;
+  text-align: center;
+}
+.cake p {
+  text-align: center;
+}
+
+/* footer */
+.footer {
+  margin-top: 50px;
+  padding: 5px;
+}
